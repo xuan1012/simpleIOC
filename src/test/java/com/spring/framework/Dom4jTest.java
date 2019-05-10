@@ -1,4 +1,4 @@
-package com.spring.framwork;
+package com.spring.framework;
 
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;

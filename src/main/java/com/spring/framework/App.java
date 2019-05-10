@@ -1,4 +1,4 @@
-package com.spring.framwork;
+package com.spring.framework;
 
 /**
  * Hello world!

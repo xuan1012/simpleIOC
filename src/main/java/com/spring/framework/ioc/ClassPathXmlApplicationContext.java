@@ -1,11 +1,11 @@
-package com.spring.framwork.ioc;
+package com.spring.framework.ioc;
 
 import com.google.common.base.Strings;
-import com.spring.framwork.config.model.BeanDefinition;
-import com.spring.framwork.config.model.Property;
-import com.spring.framwork.config.parser.ConfigParser;
-import com.spring.framwork.config.parser.XmlConfigParser;
-import com.spring.framwork.exceptions.BeanCreationException;
+import com.spring.framework.config.model.BeanDefinition;
+import com.spring.framework.config.model.Property;
+import com.spring.framework.config.parser.ConfigParser;
+import com.spring.framework.config.parser.XmlConfigParser;
+import com.spring.framework.exceptions.BeanCreationException;
 
 import java.lang.reflect.Field;
 import java.util.List;
@@ -61,6 +61,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
                 for (Property p : properties) {
                     String fieldName = p.getName();
                     Field field = aClass.getDeclaredField(fieldName);
+                    field.setAccessible(true);
                     String value = p.getValue();
                     String ref = p.getRef();
                     //property使用的是value
@@ -68,7 +69,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
                         field.set(instance, value);
                     }
                     //property使用的是ref
-                    if (Strings.isNullOrEmpty(value && !Strings.isNullOrEmpty(ref))) {
+                    if (Strings.isNullOrEmpty(value) && !Strings.isNullOrEmpty(ref)) {
                         //判断容器是否有ref的bean
                         //有则用
                         //无则创建

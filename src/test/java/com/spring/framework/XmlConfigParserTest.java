@@ -1,8 +1,8 @@
-package com.spring.framwork;
+package com.spring.framework;
 
-import com.spring.framwork.config.model.BeanDefinition;
-import com.spring.framwork.config.parser.ConfigParser;
-import com.spring.framwork.config.parser.XmlConfigParser;
+import com.spring.framework.config.model.BeanDefinition;
+import com.spring.framework.config.parser.ConfigParser;
+import com.spring.framework.config.parser.XmlConfigParser;
 import junit.framework.TestCase;
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.spring.framwork.exceptions;
+package com.spring.framework.exceptions;
 
 /**
  * @program: IOCsmall

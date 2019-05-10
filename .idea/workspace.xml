@@ -4,7 +4,10 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38bf41e-66cc-424b-9d04-de464985d7c8" name="Default Changelist" comment="" />
+    <list default="true" id="f38bf41e-66cc-424b-9d04-de464985d7c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,21 +41,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state relative-caret-position="57">
+              <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3324#3325#0" expanded="true" />
+                <element signature="e#3371#3372#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framwork/arche/dao/impl/UserDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/config/parser/XmlConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="776">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -146,18 +161,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framwork/XmlConfigParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/config/parser/ConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="416">
@@ -181,6 +184,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,8 +206,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/exceptions/IOCSmallException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/exceptions/BeanCreationException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/exceptions/ConfigParseException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/config/parser/XmlConfigParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/spring/framwork/arche/dao/impl/UserDAOImpl.java" />
       </list>
     </option>
   </component>
@@ -245,6 +250,7 @@
     <option name="width" value="1816" />
     <option name="height" value="1026" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -321,15 +327,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="framwork" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framwork" type="462c0819:PsiDirectoryNode" />
               <item name="ioc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,6 +357,36 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="arche" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="arche" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framwork" type="462c0819:PsiDirectoryNode" />
+              <item name="arche" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framwork" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,12 +406,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/spring/framwork/arche" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\ideaFlot\IOCsmall\src\test\java\com\spring\framwork\arche" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.spring.framwork.exceptions" />
       <recent name="com.spring.framwork.ioc" />
@@ -408,12 +438,12 @@
       <module name="IOCsmall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.framwork.*" />
+          <option name="PATTERN" value="com.spring.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.framwork" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.framwork.Dom4jTest" />
+      <option name="PACKAGE_NAME" value="com.spring.framework" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.framework.Dom4jTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -423,12 +453,12 @@
       <module name="IOCsmall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.framwork.*" />
+          <option name="PATTERN" value="com.spring.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.framwork" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.framwork.ReflectionTest" />
+      <option name="PACKAGE_NAME" value="com.spring.framework" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.framework.ReflectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -438,12 +468,12 @@
       <module name="IOCsmall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.framwork.*" />
+          <option name="PATTERN" value="com.spring.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.framwork" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.framwork.ReflectionTest" />
+      <option name="PACKAGE_NAME" value="com.spring.framework" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.framework.ReflectionTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -454,12 +484,12 @@
       <module name="IOCsmall" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.framwork.*" />
+          <option name="PATTERN" value="com.spring.framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.framwork" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.framwork.XmlConfigParserTest" />
+      <option name="PACKAGE_NAME" value="com.spring.framework" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.framework.XmlConfigParserTest" />
       <option name="METHOD_NAME" value="testParse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -489,8 +519,16 @@
       <option name="presentableId" value="Default" />
       <updated>1557391129895</updated>
       <workItem from="1557391132396" duration="6793000" />
-      <workItem from="1557447769430" duration="5949000" />
+      <workItem from="1557447769430" duration="8301000" />
     </task>
+    <task id="LOCAL-00001" summary="简单的IOC实现">
+      <created>1557458440003</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557458440003</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -517,7 +555,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12742000" />
+    <option name="totallyTimeSpent" value="15094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,6 +568,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49889868" visible="true" weight="0.2528" />
       <window_info id="Structure" order="1" sideWeight="0.5011013" side_tool="true" weight="0.25" />
@@ -539,7 +578,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.5011013" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43171805" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,6 +610,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="简单的IOC实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单的IOC实现" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -775,21 +818,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/config/parser/XmlConfigParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/ioc/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        <state relative-caret-position="57">
+          <caret line="63" column="44" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3324#3325#0" expanded="true" />
+            <element signature="e#3371#3372#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framwork/config/parser/XmlConfigParser.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framwork/arche/dao/impl/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

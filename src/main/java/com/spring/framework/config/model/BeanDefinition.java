@@ -1,4 +1,4 @@
-package com.spring.framwork.config.model;
+package com.spring.framework.config.model;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.spring.framwork;
+package com.spring.framework;
 
-import com.spring.framwork.data.Pig;
+import com.spring.framework.data.Pig;
 import junit.framework.TestCase;
 
 import java.lang.reflect.Constructor;
@@ -46,7 +46,7 @@ public class ReflectionTest extends TestCase {
         for (Constructor<?> constructor:declaredConstructors){
             System.out.println(constructor.getName());
         }
-        Pig pig = (Pig) Class.forName("com.spring.framwork.data.Pig").newInstance();
+        Pig pig = (Pig) Class.forName("com.spring.framework.data.Pig").newInstance();
         pig.setName("ssss");
         pig.setWeight(2000);
         pig.setSpecies("Super");

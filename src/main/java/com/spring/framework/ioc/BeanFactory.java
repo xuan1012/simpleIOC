@@ -1,4 +1,4 @@
-package com.spring.framwork.ioc;
+package com.spring.framework.ioc;
 
 /**
  * @program: IOCsmall

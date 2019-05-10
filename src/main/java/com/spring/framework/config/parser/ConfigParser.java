@@ -1,6 +1,6 @@
-package com.spring.framwork.config.parser;
+package com.spring.framework.config.parser;
 
-import com.spring.framwork.config.model.BeanDefinition;
+import com.spring.framework.config.model.BeanDefinition;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.spring.framwork.data;
+package com.spring.framework.data;
 
 import lombok.Data;
 
