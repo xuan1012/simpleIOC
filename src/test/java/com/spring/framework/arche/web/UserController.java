@@ -2,9 +2,12 @@ package com.spring.framework.arche.web;
 
 
 import com.spring.framework.arche.service.UserService;
+import com.spring.framework.config.annotation.Autowired;
+import com.spring.framework.config.annotation.Controller;
 
+@Controller("userController")
 public class UserController {
-
+    @Autowired
     private UserService userService;
 
 

@@ -1,6 +1,7 @@
 package com.spring.framework.config.model;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.lang.reflect.Field;
 
@@ -9,7 +10,7 @@ import java.lang.reflect.Field;
  * @author: xuan
  * @create: 2019-05-09 16:46
  **/
-@Data
+@Data @NoArgsConstructor
 public class Property {
     private String name;
     private String ref;

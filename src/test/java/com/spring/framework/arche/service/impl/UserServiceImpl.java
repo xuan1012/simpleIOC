@@ -3,9 +3,12 @@ package com.spring.framework.arche.service.impl;
 import com.spring.framework.arche.dao.UserDAO;
 import com.spring.framework.arche.dao.model.User;
 import com.spring.framework.arche.service.UserService;
+import com.spring.framework.config.annotation.Autowired;
+import com.spring.framework.config.annotation.Service;
 
+@Service("userService")
 public class UserServiceImpl implements UserService {
-
+    @Autowired
     private UserDAO userDAO;
 
     @Override

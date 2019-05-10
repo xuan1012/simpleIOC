@@ -6,11 +6,11 @@
         <property name="userDAO" ref="userDAO"/>
     </bean>
 
-    <bean id="userDAO" class="com.spring.framework.arche.dao.impl.UserDAOImpl" >
+    <bean id="userDAO" class="com.spring.framework.arche.dao.impl.UserDAOImpl">
         <property name="age" value="12"/>
     </bean>
 
-    <bean id="userServiceFukua" class="com.spring.framework.arche.service.impl.UserServiceImplFukua" >
+    <bean id="userServiceFukua" class="com.spring.framework.arche.service.impl.UserServiceImplFukua">
         <property name="userDAO" ref="userDAO"/>
     </bean>
 

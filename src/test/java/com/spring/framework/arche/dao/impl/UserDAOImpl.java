@@ -3,12 +3,14 @@ package com.spring.framework.arche.dao.impl;
 import com.spring.framework.arche.common.DBHelper;
 import com.spring.framework.arche.dao.UserDAO;
 import com.spring.framework.arche.dao.model.User;
+import com.spring.framework.config.annotation.Repository;
+import com.spring.framework.config.annotation.Value;
 
 import java.util.List;
 import java.util.Map;
-
+@Repository("userDAO")
 public class UserDAOImpl implements UserDAO {
-
+    @Value("123")
     private String age;
 
     private Map<String,Object> data;

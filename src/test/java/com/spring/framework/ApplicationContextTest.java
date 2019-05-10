@@ -27,4 +27,16 @@ public class ApplicationContextTest extends TestCase {
             fail();
         }
     }
+    public void testScan(){
+        ClassPathXmlApplicationContext ctx=new ClassPathXmlApplicationContext("applicationContextScan.xml");
+        System.out.println(ctx);
+        UserDAO userDAO=ctx.getBean("userDAO",UserDAO.class);
+        User zhangsan=userDAO.findByUsernameAndPassword("zhangsan","123");
+        assertNotNull(zhangsan);
+
+        UserController userController=ctx.getBean("userController",UserController.class);
+        assertNotNull(userController);
+        String resultMessage=userController.login("zhangsan","123");
+        assertEquals("成功",resultMessage);
+    }
 }

@@ -61,7 +61,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
     private Object cteateBean(BeanDefinition definition) {
         String type = definition.getType();
         try {
-            Class<?> aClass = Class.forName(type);
+            Class<?> aClass = definition.getTypeClass()==null?Class.forName(type):definition.getTypeClass();
             //创建实例
             Object instance = aClass.newInstance();
             //对属性进行依赖注入(Dependency injection)
@@ -92,7 +92,7 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
                     }
                 }
             }
-            return instance;
+        return instance;
         } catch (IllegalAccessException | InstantiationException | ClassNotFoundException e) {
             throw new BeanCreationException("无法加载指定的类:" + type, e);
         } catch (Exception e) {
