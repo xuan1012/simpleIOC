@@ -1,8 +1,8 @@
 package com.spring.framework.arche.dao.impl;
 
 import com.spring.framework.arche.common.DBHelper;
-import com.chinasofti.framework.arche.dao.UserDAO;
-import com.chinasofti.framework.arche.dao.model.User;
+import com.spring.framework.arche.dao.UserDAO;
+import com.spring.framework.arche.dao.model.User;
 
 import java.util.List;
 import java.util.Map;

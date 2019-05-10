@@ -1,7 +1,7 @@
 package com.spring.framework.arche.dao;
 
 
-import com.chinasofti.framework.arche.dao.model.User;
+import com.spring.framework.arche.dao.model.User;
 
 import java.util.List;
 

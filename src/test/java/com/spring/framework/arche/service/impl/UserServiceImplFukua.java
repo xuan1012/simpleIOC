@@ -2,10 +2,10 @@ package com.spring.framework.arche.service.impl;
 
 
 
-import com.chinasofti.framework.arche.dao.UserDAO;
-import com.chinasofti.framework.arche.dao.model.User;
-import com.chinasofti.framework.arche.service.UserService;
-import com.chinasofti.framework.arche.web.UserController;
+import com.spring.framework.arche.dao.UserDAO;
+import com.spring.framework.arche.dao.model.User;
+import com.spring.framework.arche.service.UserService;
+import com.spring.framework.arche.web.UserController;
 
 public class UserServiceImplFukua implements UserService {
 

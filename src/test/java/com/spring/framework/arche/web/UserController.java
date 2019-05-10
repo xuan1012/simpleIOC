@@ -1,7 +1,7 @@
 package com.spring.framework.arche.web;
 
 
-import com.chinasofti.framework.arche.service.UserService;
+import com.spring.framework.arche.service.UserService;
 
 public class UserController {
 

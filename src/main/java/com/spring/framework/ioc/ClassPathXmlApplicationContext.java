@@ -10,6 +10,7 @@ import com.spring.framework.exceptions.BeanCreationException;
 import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @program: IOCsmall
@@ -24,8 +25,15 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
     /**
      * IOC容器
      */
-    private Map<String, Object> container;
+    private Map<String, Object> container = new ConcurrentHashMap<>();
 
+    /**
+     * @Description: 根据指定的配置文件创建上下文的实例 描述
+     * @Param: [configLocation] 参数
+     * @return: void
+     * @Author: xuan
+     * @Date: 2019/5/10
+     */
     public ClassPathXmlApplicationContext(String configLocation) {
         //加载并解析XML
         ConfigParser parser = new XmlConfigParser();
@@ -42,11 +50,12 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
      * @Date: 2019/5/10
      */
 
-    private Map<String, Object> init() {
+    private void init() {
         for (BeanDefinition definition : beanDefinitions.values()) {
-            container.put(definition.getId(), cteateBean(definition));
+            if (container.get(definition.getId()) == null) {
+                container.put(definition.getId(), cteateBean(definition));
+            }
         }
-        return null;
     }
 
     private Object cteateBean(BeanDefinition definition) {
@@ -72,16 +81,23 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
                     if (Strings.isNullOrEmpty(value) && !Strings.isNullOrEmpty(ref)) {
                         //判断容器是否有ref的bean
                         //有则用
+                        Object propertyInstance = container.get(ref);
                         //无则创建
+                        if (propertyInstance == null) {
+                            //获取到属性的beanDefinition,用以创建property实例
+                            BeanDefinition propDef = beanDefinitions.get(ref);
+                            propertyInstance = cteateBean(propDef);
+                        }
+                        field.set(instance, propertyInstance);
                     }
                 }
             }
+            return instance;
         } catch (IllegalAccessException | InstantiationException | ClassNotFoundException e) {
             throw new BeanCreationException("无法加载指定的类:" + type, e);
         } catch (Exception e) {
             throw new BeanCreationException("创建bean出错:", e);
         }
-        return null;
     }
 
     @Override
@@ -101,6 +117,6 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
 
     @Override
     public boolean containsBean(String name) {
-        return false;
+        return container.containsKey(name);
     }
 }

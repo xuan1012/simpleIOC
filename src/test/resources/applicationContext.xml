@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans>
 
-    <bean id="userService" class="com.chinasofti.etc.spring.xml.service.impl.UserServiceImpl">
+    <bean id="userService" class="com.spring.framework.arche.service.impl.UserServiceImpl">
         <!--属性，默认根据setter注入-->
         <property name="userDAO" ref="userDAO"/>
     </bean>
 
-    <bean id="userServiceFukua" class="com.chinasofti.etc.spring.xml.service.impl.UserServiceImplFukua" >
-        <property name="userDAO" ref="userDAO"/>
-        <property name="userController" ref="userController"/>
+    <bean id="userDAO" class="com.spring.framework.arche.dao.impl.UserDAOImpl" >
+        <property name="age" value="12"/>
     </bean>
+
+    <bean id="userServiceFukua" class="com.spring.framework.arche.service.impl.UserServiceImplFukua" >
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+
+    <bean id="userController" class="com.spring.framework.arche.web.UserController">
+        <property name="userService" ref="userServiceFukua"/>
+    </bean>
+
 
 </beans>
