@@ -6,27 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f38bf41e-66cc-424b-9d04-de464985d7c8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/dao/UserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/dao/impl/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/dao/impl/UserDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/service/impl/UserServiceImplFukua.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/service/impl/UserServiceImplFukua.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/web/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/config/model/BeanDefinition.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/config/model/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/config/parser/ConfigParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/config/parser/XmlConfigParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/ioc/BeanFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/framwork/ioc/ClassPathXmlApplicationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/IOCsmall.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/framwork/Dom4jTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/framwork/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/framwork/XmlConfigParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/framwork/data/Pig.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+            <state relative-caret-position="178">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4112#4113#0" expanded="true" />
@@ -75,19 +55,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/config/parser/XmlConfigParser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-737">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/config/parser/ConfigParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -107,11 +75,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/ApplicationContextTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="506">
               <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/arche/web/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -143,20 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Tools/Maven/repository/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runner/notification/RunNotifier.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="420">
+              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
+        <entry file="jar://D:/Tools/Maven/repository/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runner/notification/RunNotifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            <state relative-caret-position="425">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -203,8 +180,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/spring/framework/arche/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/spring/framework/ApplicationContextTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -324,85 +301,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="framework" type="462c0819:PsiDirectoryNode" />
               <item name="ioc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="arche" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="arche" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="arche" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="arche" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="arche" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IOCsmall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IOCsmall" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -544,7 +442,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557391129895</updated>
       <workItem from="1557391132396" duration="6793000" />
-      <workItem from="1557447769430" duration="11900000" />
+      <workItem from="1557447769430" duration="12229000" />
     </task>
     <task id="LOCAL-00001" summary="简单的IOC实现">
       <created>1557458440003</created>
@@ -560,16 +458,17 @@
       <option name="project" value="LOCAL" />
       <updated>1557460687209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="简单的IOC实现">
+      <created>1557465895800</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557465895800</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 02m 50s.xml">
-      <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 02m 54s.xml">
-      <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 02m 58s.xml">
       <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
     </history-entry>
@@ -594,9 +493,15 @@
     <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 18m 48s.xml">
       <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 22m 15s.xml">
+      <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationContextTest_testInit - 2019.05.10 at 13h 22m 19s.xml">
+      <configuration name="ApplicationContextTest.testInit" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18693000" />
+    <option name="totallyTimeSpent" value="19022000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,7 +525,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.37995595" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33259913" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33259913" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32929516" />
@@ -630,7 +535,7 @@
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32929516" />
       <window_info anchor="bottom" id="CheckStyle" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32929516" />
       <window_info anchor="bottom" id="Run with VisualVM" order="14" />
       <window_info anchor="bottom" id="SQL" order="15" />
       <window_info anchor="bottom" id="Version Control" order="16" />
@@ -655,18 +560,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="简单的IOC实现" />
     <option name="LAST_COMMIT_MESSAGE" value="简单的IOC实现" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
@@ -882,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/arche/web/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/Dom4jTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -926,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/config/parser/ConfigParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -946,7 +825,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/config/parser/XmlConfigParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-737">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -974,16 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/ApplicationContextTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Tools/Maven/repository/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/JUnit38ClassRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
@@ -1000,12 +869,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/spring/framework/ioc/ClassPathXmlApplicationContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="95" column="42" selection-start-line="95" selection-start-column="42" selection-end-line="95" selection-end-column="42" />
+        <state relative-caret-position="178">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4112#4113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/ApplicationContextTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/spring/framework/arche/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
         </state>
       </provider>
     </entry>
