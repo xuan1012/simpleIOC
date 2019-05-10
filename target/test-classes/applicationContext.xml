@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="userService" class="com.chinasofti.etc.spring.xml.service.impl.UserServiceImpl">
+        <!--属性，默认根据setter注入-->
+        <property name="userDAO" ref="userDAO"/>
+    </bean>
+
+    <bean id="userServiceFukua" class="com.chinasofti.etc.spring.xml.service.impl.UserServiceImplFukua" >
+        <property name="userDAO" ref="userDAO"/>
+        <property name="userController" ref="userController"/>
+    </bean>
+
+</beans>
