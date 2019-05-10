@@ -17,8 +17,8 @@ public interface BeanFactory {
     <T> T getBean(String beanName, Class<T> beanType);
 
     /**
-     * @Description: 判断容器中是否包含该bean 描述
-     * @Param: [name] 参数
+     * @Description: 判断容器中是否包含该bean
+     * @Param: [name]
      * @return: boolean
      * @Author: xuan
      * @Date: 2019/5/9
